@@ -1,296 +1,395 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <title>Katt - Tasty Blog Html Template</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by Colorlib" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="Colorlib" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <link rel="shortcut icon" href="images/favicon.png" />
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        <link rel="stylesheet" type="text/css"  href='style.css' />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
 
-        <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
-        <![endif]-->
+    <title>Project BlackBox</title>
+  </head>
+  <body>
+    <div class="container-md pl-0 pr-0 spacer-top">
+      <!-- Image and text -->
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-bars white"></i>
+          <img
+            src="images/logo.png"
+            class="d-inline-block align-top main-logo ml-md-3"
+            alt="Logo"
+          />
+        </a>
+      </nav>
+      <div class="hero-container pl-3 pl-md-5">
+        <div class="hero-title">Project BlackBox</div>
+        <p>Post-Quantum Private Key Cryptography</p>
+      </div>
+      <!-- end of hero -->
 
-    </head>
-
-
-    <body class="home blog">
-        <div class="doc-loader"></div>
-        <div class="content-1170 header-holder center-relative">
-            <div class="header-logo left">
-                <a href="index.html">
-                    <img src="images/katt_default_logo.png" alt="Katt">
-                </a>
+      <div class="article p-md-4 pt-5 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container text-md-center">
+              <span class="heading">Abstract</span>
             </div>
-
-            <div class="header-menu">
-                <div class="toggle-holder relative">
-                    <div id="toggle">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                        <div class="three"></div>
-                    </div>
-                </div>
-
-                <nav id="header-main-menu" class="big-menu">
-                    <ul class="main-menu sm sm-clean">
-                        <li><a href="index.html" class="current">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="about2.html">About 2</a></li>
-                        <li><a href="about3.html">About 3</a></li>
-                        <li><a href="contact.html">Contact</a>
-                            <ul class="sub-menu">
-                                <li><a href="contact2.html">Contact + Map</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
+          </div>
         </div>
 
-        <div class="block content-1170 center-relative">
-            <div class="blog-holder block center-relative">
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            As more and more people have started using instant messaging apps on
+            a daily basis to not just text, but send and receive files and other
+            types of data, the need for a good security protocol that offers an
+            encryption standard and method of key-exchange has radically
+            increased. With the advent of end-to-end encryption (E2EE), apps
+            such as WhatsApp and Signal have implemented their own version of
+            E2EE. However, none of these protocols are 100% safe and don’t
+            guarantee 100% security against man-in-the-middle attacks. These
+            protocols merely make it time-consuming and resource intensive to
+            find a solution to crack these keys using a brute-force approach.
+            Algorithms like RSA and SHA512 can be broken by a Quantum Computer.
+            We present a solution to the public-key exchange challenges faced by
+            cryptographers through our proprietary cryptographic system - ‘The
+            BlackBox’, which uses QR codes to initially exchange keys and
+            implements subsequent key exchanges using the already established
+            shared secret keys.
+          </p>
 
-                <article id="post-1" class="relative blog-item-holder">
-                    <div class="post-thumb thumb-html one_thumb relative">
-                        <script>
-                            var slider1_speed = "500";
-                            var slider1_auto = "true";
-                            var slider1_pagination = "true";
-                            var slider1_hover = "true";
-                        </script>
-                        <div class="image-slider-wrapper">
-                            <div class="caroufredsel_wrapper">
-                                <ul id="slider1" class="image-slider slides center-text">
-                                    <li><img src="demo-images/katt_home_image01_slider01.jpg" alt=""></li>
-                                    <li><img src="demo-images/katt_home_image01_slider02.jpg" alt=""></li>
-                                    <li><img src="demo-images/katt_home_image01_slider03.jpg" alt=""></li>
-                                </ul>
-                            </div>
-                            <div class="slider1_pagination carousel_pagination left"></div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    <div class="post-title-holder one_title absolute">
-                        <h2 class="entry-title excerpt">
-                            <a href="single.html">
-                                We are design &amp; digital studio based in New York.<br>
-                                This is our showcase of crafted awesomeness.</a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Design</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </article>
+          <p class="article-para">
+            <span class="font-italic">Index Terms</span> — cryptography, network
+            security, QR code, secure data transfer, post-quantum cryptography.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
 
-
-                <article id="post-2" class="relative blog-item-holder">
-                    <div class="only-post-title-holder">
-                        <h2 class="entry-title excerpt">
-                            <a href="single.html">
-                                Gathered by gravity bits of moving fluff Flatland venture hearts of the stars Hypatia birth cosmic ocean! Flatland are creatures of the cosmos Orion's sword two ghostly white figures
-                            </a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Handmade</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 30px; left: -90px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
-
-                <article id="post-3" class="relative blog-item-holder">
-                    <div class="post-thumb thumb-image two_third_thumb left">
-                        <img src="demo-images/katt_home_image02.jpg" alt="">
-                    </div>
-                    <div class="post-title-holder one_third_title right">
-                        <h2 class="entry-title">
-                            <a href="single.html">What was most significant about the office chairs</a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Interior</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 40px; right: 331px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
-
-                <article id="post-4" class="relative blog-item-holder">
-                    <div class="post-thumb thumb-image two_third_thumb right">
-                        <img src="demo-images/katt_home_image03.jpg" alt="">
-                    </div>
-                    <div class="post-title-holder one_third_title left">
-                        <h2 class="entry-title">
-                            <a href="single.html">
-                                The sky is the limit only for those who aren’t afraid to fly
-                            </a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Packaging</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 110px; left: -83px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
-
-                <article id="post-5" class="relative blog-item-holder">
-                    <div class="post-thumb thumb-image one_third_thumb left">
-                        <img src="demo-images/katt_home_image04.jpg" alt="">
-                    </div>
-                    <div class="post-title-holder two_third_title right">
-                        <h2 class="entry-title">
-                            <a href="single.html">
-                                To go places and do things that have never been done before, that’s what living is all about
-                            </a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Handmade</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 50px; right: -92px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
-
-                <article id="post-6" class="relative blog-item-holder">
-                    <div class="only-post-title-holder">
-                        <h2 class="entry-title excerpt">
-                            <a href="single.html">
-                                It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn't feel like a giant. I felt very, very small.
-                            </a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Handmade</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 25px; left: -80px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
-
-                <article id="post-7" class="relative blog-item-holder">
-                    <div class="post-thumb thumb-image two_third_thumb right">
-                        <img src="demo-images/katt_home_image05.jpg" alt="">
-                    </div>
-                    <div class="post-title-holder one_third_title left">
-                        <h2 class="entry-title" style="margin-top: 305px;">
-                            <a href="single.html">I believe every human has a finite number of heartbeats</a>
-                        </h2>
-                        <div class="cat-links">
-                            <ul>
-                                <li>
-                                    <a href="#">Lifestyle</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="zigzag absolute" style="bottom: 120px; left: 310px;">
-                        <img src="images/zigzag.png" alt="">
-                    </div>
-                </article>
-
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container text-md-center">
+              <span class="heading">I. Introduction</span>
             </div>
-            <div class="clear"></div>
-            <div class="block center-relative center-text">
-                <a class="more-posts">Load more articles</a>
-            </div>
-            <div class="clear"></div>
+          </div>
         </div>
 
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            Over two billion people use Facebook, Instagram, WhatsApp, or
+            Messenger every day and over 2.7 billion use at least one of
+            Facebook’s products each month.<sup>[1]</sup> This is no surprise
+            given the amount of internet penetration in almost every part of the
+            world. With the increase in the number of users, the amount of data
+            generated is also growing exponentially. 682 million tweets are
+            created per day, 67,305,600 Instagram posts are made every day, 4.3
+            billion messages are sent on Facebook each day and 5.76 billion
+            Facebook likes are generated every single day. Companies that
+            provide these services have to stay in business and manage to cover
+            their operational costs while offering their products as a free
+            service. This is where data brokers and advertising comes in.
+            Targeted ads have become very popular and almost every internet
+            company is moving towards serving targeted advertisements. In 2017,
+            Google AdWords alone made over $110.8 billion in revenue.<sup
+              >[2]</sup
+            >
+            All this money is being generated through the vast amounts of user
+            data being collected by these online services. Targeted advertising
+            has had a profound impact on the way companies have started to make
+            money, so much so that most of them don’t take enough precautions to
+            safeguard user data and privacy.<sup>[3]</sup> WhatsApp has been
+            accused of intentionally weakening their encryption to make it
+            possible for their parent company - Facebook to read users’ personal
+            messages and build even more detailed ad profiles for their users.
+            <sup>[4]</sup> This will allow them to target advertisements better,
+            the consequences of which are far reaching and serious as they may
+            include influencing users prior to elections and the like. This has
+            led to a number of smaller startups trying to build apps and
+            services that aim to put privacy first by implementing some sort of
+            public key encryption protocol that they claim is safer than the
+            pre-existing ones.
+          </p>
 
-        <!--Footer-->
+          <p class="article-para">
+            One of the most notable forms of public-key encryption is the
+            Diffie-Hellman key exchange. All other modern encryption algorithms
+            are either directly or loosely based on the work of Whitfield Diffie
+            and Martin Hellman.<sup>[5]</sup> Even though this encryption scheme
+            allows two parties who have no prior knowledge of each other to
+            jointly establish a shared secret key over an insecure channel, this
+            can be broken since the two parties agree on certain common
+            variables before the keys are privately generated and anyone in the
+            middle listening to both sides of the communication can easily
+            intercept these variables and compute the decrypted values. Even
+            otherwise, improperly implemented RSA based encryption can be broken
+            by running a Shor’s algorithm or Number Field Sieve (NFS) based
+            brute-force attack. RSA keys are generated using the Rabin or RSA
+            family of one-way functions to find trapdoors in modular arithmetic.
+          </p>
 
-        <footer class="footer">
-            <div class="content-1170 center-relative">
-                <ul>
-                    <li class="left-footer-content">
-                        © 2018 All rights reserved. | Katt HTML Template <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>.
-                    </li>
-                    <li class="center-footer-content">
-                        <a href="index.html">
-                            <img src="images/katt_default_footer_logo.png" alt="Katt">
-                        </a>
-                    </li>
-                    <li class="right-footer-contnet">
-                        <a href="#">Twitter</a>
-                        <a href="#">Linkedin</a>
-                        <a href="#">Dribbble</a>
-                        <a href="#">Instagram</a>
-                    </li>
-                    <li class="left-footer-content mobile">
-                        © 2018 All rights reserved. | Katt HTML Template <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>.
-                    </li>
-                </ul>
+          <p class="article-para">
+            In modern-day implementations of public-key cryptography, each key
+            is signed with a digital signature to verify its integrity and make
+            sure only the two communicating parties can decrypt it with their
+            private key pairs. This method is secure and hasn’t been broken yet
+            as long as a large key is used but is slow and is generally used to
+            pass encrypted shared keys for symmetric key cryptography which can
+            in turn perform bulk encryption-decryption operations at a much
+            higher speed. Even otherwise, any 2048 bit RSA key can be broken by
+            a well-designed Shor’s algorithm based brute force attack by a
+            quantum computer in less than 10 seconds if 4096 qubits are used.
+            These many qubits haven’t been used simultaneously yet but the
+            probability of such a machine coming into existence is highly
+            possible. 768 bit RSA has already been broken<sup>[6]</sup> by a
+            classical computer running on an Opteron processor.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <div class="article p-md-4 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col pl-4 heading-container text-md-center">
+              <span class="heading-medium"
+                >II. ENCRYPTION ALGORITHM AND KEY GENERATION</span
+              >
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+      <!-- end of article -->
 
-
-
-        <div class="fixed scroll-top">
-            <img src="images/back_to_top.png" alt="Go Top">
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container">
+              <span class="heading">A. Algorithm</span>
+            </div>
+          </div>
         </div>
 
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            Our algorithm makes use of trapdoor functions from modular
+            arithmetic. A trapdoor function is a special type of function that
+            can be performed on any variable to give us an answer that can’t be
+            reversed easily unless we know the trapdoor. The trapdoor here
+            refers to the secret variable that makes reverse computation of the
+            trapdoor function infeasible. These trapdoor functions are otherwise
+            known as one-way functions.
+          </p>
 
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
-        <script type="text/javascript" src="js/queryloader2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.carouFredSel-6.0.0-packed.js"></script>
-        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+          <p class="article-para">
+            As of 2004, the best known trapdoor function candidates are the RSA
+            and Rabin families of functions.<sup>[7]</sup> Both are written as
+            exponentiation modulo a composite number, and both are related to
+            the problem of prime factorization.
+          </p>
 
-    </body>
+          <p class="article-para">
+            We use 3 variables ‘x’, ‘m’ and ‘p’ to compute our key values – e.
+          </p>
+
+          <button
+            type="button"
+            class="btn btn-light font-weight-bold mt-3 py-2 px-3"
+          >
+            m<sup>x</sup> mod p = e
+          </button>
+
+          <table class="p-md-0 mt-5 mb-5 table-sm table table-borderless white">
+            <tbody>
+              <tr>
+                <td>m</td>
+                <td>=</td>
+                <td>any large prime number</td>
+              </tr>
+              <tr>
+                <td>x</td>
+                <td>=</td>
+                <td>primitive root modulo of p</td>
+              </tr>
+              <tr>
+                <td>p</td>
+                <td>=</td>
+                <td>values to be encrypted</td>
+              </tr>
+              <tr>
+                <td>e</td>
+                <td>=</td>
+                <td>encrypted value</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="article-para">
+            This process is the first stage of encryption and the values
+            generated here will be processed by a secret mapping function that
+            makes it impossible even for a quantum computer to brute-force or
+            factorize. The final cipher generated is then used to encrypt our
+            data.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container">
+              <span class="heading">B. Computation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            Our key consists of 10 values starting from 0 to 9. These values are
+            assigned to ‘x’ one at a time over a series of 10 iterations. Each
+            iteration produces a unique value ‘e’ for every ‘x’.
+          </p>
+
+          <p class="article-para">
+            The strength of this algorithm depends on the size of the variables
+            being used here. Our cryptographic system - ‘The BlackBox’ makes use
+            of variables that are 2048 bits in size.
+          </p>
+
+          <p class="article-para">
+            Given x = 0, 1, 2, 3... 9; our cipher will consist of 10 distinct
+            key values where each value is mapped to an individual ‘x’ value.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container">
+              <span class="heading">C. Primitive Root Modulo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            In order for the cipher table to consist of unique values, we make
+            use of what’s known as the primitive root modulo of the prime number
+            ‘p.’ The primitive root modulo is simply the smallest value greater
+            than 1 that when substituted in the formula will give us unique
+            values for each ‘x’ value. [8]
+          </p>
+
+          <p class="article-para">
+            If the value of the large prime is smaller than 9, then the values
+            of the cipher table will start repeating before we complete the
+            table. This is because all the values in the table are generated by
+            the primitive root modulo ‘m’ which is otherwise known as the
+            generator of the group.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container">
+              <span class="heading">D. Cracking the key</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            Our key is made up of variables that are 2048 bits each. Cracking a
+            key of this size would require factoring a 617 digit number.
+            Cracking a key using the brute-force approach is certainly
+            infeasible. Therefore we use something known as Number Field Sieve
+            (NFS). RSA Labs claim that 2048-bit keys are 2^32 (2 to the power of
+            32) times harder to break using NFS, than 1024-bit keys.
+          </p>
+
+          <p class="article-para alert-link">
+            <div class="alert" role="alert">
+                2^32 = 4,294,967,296 or almost 4.3 billion.
+            </div>
+          </p>
+
+          <p class="article-para">
+            Therefore, if we use a standard desktop to try and crack this key,
+            it’d take approximately 4,294,967,296 x 1.5 million years to crack
+            it. That’s almost 6.4 quadrillion years. [9] With our implementation
+            of The BlackBox, ciphers automatically change once every 12 hours
+            through a process we call ‘transmutation’. Each conversation has its
+            own unique key.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <div class="article p-md-4 pt-3 pb-3">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col pl-4 heading-container">
+              <span class="heading">E. Implementation of the formula</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-body pl-4 pr-4 pl-md-5 pr-md-5">
+          <p class="article-para">
+            What follows is a sample implementation of the first part of our encryption algorithm in Java. The first two x values - ‘0’ and ‘1’ will always return ‘0’ and ‘1’ again as these values won’t get affected by mod functions. [This sample does not include the final mapping that makes this system post-quantum safe.]
+          </p>
+
+          <p class="article-para alert-link">
+            <div class="alert" role="alert">
+                2^32 = 4,294,967,296 or almost 4.3 billion.
+            </div>
+          </p>
+
+          <p class="article-para">
+            Therefore, if we use a standard desktop to try and crack this key,
+            it’d take approximately 4,294,967,296 x 1.5 million years to crack
+            it. That’s almost 6.4 quadrillion years. [9] With our implementation
+            of The BlackBox, ciphers automatically change once every 12 hours
+            through a process we call ‘transmutation’. Each conversation has its
+            own unique key.
+          </p>
+        </div>
+      </div>
+      <!-- end of article -->
+
+      <br />
+    </div>
+    <!-- Optional JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
