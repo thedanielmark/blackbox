@@ -33,11 +33,6 @@ body {
   color: #fff;
 }
 
-.jumbotron {
-  background-color: #111111;
-  color: #fff;
-}
-
 .hero-slide {
   width: 100%;
   height: auto;
@@ -74,7 +69,12 @@ i {
 }
 
 .heading {
-  font-size: 3em;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.heading-medium {
+  font-size: 1.5em;
   font-weight: 700;
 }
 
@@ -84,6 +84,11 @@ i {
 
 .article {
   background-color: #111;
+}
+
+.list-group li {
+  background-color: #111;
+  word-break: break-word;
 }
 
 @media (min-width: 768px) {
@@ -111,12 +116,12 @@ i {
   }
 
   .heading {
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 700;
   }
 
   .heading-medium {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 700;
   }
 
